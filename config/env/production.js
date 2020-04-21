@@ -47,8 +47,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      // adapter: 'sails-mysql',
-      // url: 'mysql://user:password@host:port/database',
+      adapter: 'connect-mongo',
+      url: 'mongodb://admin-getdone:S3rVer4pAss@truemongo-shard-00-00-dyxhw.mongodb.net:27017,truemongo-shard-00-01-dyxhw.mongodb.net:27017,truemongo-shard-00-02-dyxhw.mongodb.net:27017/getitdone?ssl=true&replicaSet=TrueMongo-shard-0&authSource=admin&retryWrites=true&w=majority',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -70,8 +70,7 @@ module.exports = {
       * https://sailsjs.com/config/datastores                                     *
       *                                                                           *
       ****************************************************************************/
-      // ssl: true,
-
+       ssl: true,
     },
 
   },
@@ -148,9 +147,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+       allowOrigins: [
+         'https://todo.truemessage.app',
+       ]
     },
 
   },
@@ -184,6 +183,11 @@ module.exports = {
     * > (For a full list, see https://sailsjs.com/plugins/sessions)            *
     *                                                                          *
     ***************************************************************************/
+
+   adapter: 'connect-mongo',
+   url: 'mongodb://admin-getdone:S3rVer4pAss@truemongo-shard-00-00-dyxhw.mongodb.net:27017,truemongo-shard-00-01-dyxhw.mongodb.net:27017,truemongo-shard-00-02-dyxhw.mongodb.net:27017/getitdone?ssl=true&replicaSet=TrueMongo-shard-0&authSource=admin&retryWrites=true&w=majority',
+   collection: 'sessions', 
+
     // adapter: '@sailshq/connect-redis',
     // url: 'redis://user:password@localhost:6379/databasenumber',
     //--------------------------------------------------------------------------
@@ -250,10 +254,10 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
+     onlyAllowOrigins: [
+       'https://todo.truemessage.app',
     //   'https://staging.example.com',
-    // ],
+     ],
 
 
     /***************************************************************************
@@ -371,8 +375,8 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://example.com',
-    internalEmailAddress: 'support@example.com',
+    baseUrl: 'https://todo.truemessage.app',
+    internalEmailAddress: 'support@truemessage.app',
 
     // mailgunDomain: 'mg.example.com',
     // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
