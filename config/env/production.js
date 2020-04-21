@@ -47,8 +47,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      adapter: 'connect-mongo',
-      url: 'mongodb://admin-getdone:S3rVer4pAss@truemongo-shard-00-00-dyxhw.mongodb.net:27017,truemongo-shard-00-01-dyxhw.mongodb.net:27017,truemongo-shard-00-02-dyxhw.mongodb.net:27017/getitdone?ssl=true&replicaSet=TrueMongo-shard-0&authSource=admin&retryWrites=true&w=majority',
+      //adapter: 'connect-mongo',
+      //url: 'mongodb://admin-getdone:S3rVer4pAss@truemongo-shard-00-00-dyxhw.mongodb.net:27017,truemongo-shard-00-01-dyxhw.mongodb.net:27017,truemongo-shard-00-02-dyxhw.mongodb.net:27017/getitdone?ssl=true&replicaSet=TrueMongo-shard-0&authSource=admin&retryWrites=true&w=majority',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
