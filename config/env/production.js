@@ -149,6 +149,8 @@ module.exports = {
     cors: {
        allowOrigins: [
          'https://todo.truemessage.app',
+         'http://get-it-done-web.herokuapp.com',
+         'https://get-it-done-web.herokuapp.com/',
        ]
     },
 
@@ -256,7 +258,8 @@ module.exports = {
     ***************************************************************************/
      onlyAllowOrigins: [
        'https://todo.truemessage.app',
-    //   'https://staging.example.com',
+       'http://get-it-done-web.herokuapp.com',
+       'https://get-it-done-web.herokuapp.com/',
      ],
 
 
