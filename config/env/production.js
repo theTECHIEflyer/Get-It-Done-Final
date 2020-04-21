@@ -70,7 +70,7 @@ module.exports = {
       * https://sailsjs.com/config/datastores                                     *
       *                                                                           *
       ****************************************************************************/
-       ssl: true,
+       //ssl: true,
     },
 
   },
@@ -146,13 +146,13 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    cors: {
+    /*cors: {
        allowOrigins: [
          'https://todo.truemessage.app',
          'http://get-it-done-web.herokuapp.com',
          'https://get-it-done-web.herokuapp.com',
-       ]
-    },
+       ] 
+    },*/
 
   },
 
@@ -186,9 +186,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
 
-   adapter: 'connect-mongo',
-   url: 'mongodb://admin-getdone:S3rVer4pAss@truemongo-shard-00-00-dyxhw.mongodb.net:27017,truemongo-shard-00-01-dyxhw.mongodb.net:27017,truemongo-shard-00-02-dyxhw.mongodb.net:27017/getitdone?ssl=true&replicaSet=TrueMongo-shard-0&authSource=admin&retryWrites=true&w=majority',
-   collection: 'sessions', 
+   //adapter: 'connect-mongo',
+   //url: 'mongodb://admin-getdone:S3rVer4pAss@truemongo-shard-00-00-dyxhw.mongodb.net:27017,truemongo-shard-00-01-dyxhw.mongodb.net:27017,truemongo-shard-00-02-dyxhw.mongodb.net:27017/getitdone?ssl=true&replicaSet=TrueMongo-shard-0&authSource=admin&retryWrites=true&w=majority',
+   //collection: 'sessions', 
 
     // adapter: '@sailshq/connect-redis',
     // url: 'redis://user:password@localhost:6379/databasenumber',
@@ -258,7 +258,7 @@ module.exports = {
     ***************************************************************************/
      onlyAllowOrigins: [
        'https://todo.truemessage.app',
-       'http://get-it-done-web.herokuapp.com',
+       //'http://get-it-done-web.herokuapp.com',
        'https://get-it-done-web.herokuapp.com',
      ],
 
@@ -365,7 +365,7 @@ module.exports = {
   * > https://sailsjs.com/config/*#?sailsconfigssl                          *
   *                                                                         *
   **************************************************************************/
-  // ssl: undefined,
+   //ssl: true,
 
 
 
@@ -378,8 +378,8 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://todo.truemessage.app',
-    internalEmailAddress: 'support@truemessage.app',
+    //baseUrl: 'https://todo.truemessage.app',
+    //internalEmailAddress: 'support@truemessage.app',
 
     // mailgunDomain: 'mg.example.com',
     // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
