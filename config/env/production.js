@@ -378,7 +378,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    //baseUrl: 'https://todo.truemessage.app',
+    baseUrl: 'https://get-it-done-web.herokuapp.com',
     //internalEmailAddress: 'support@truemessage.app',
 
     // mailgunDomain: 'mg.example.com',
