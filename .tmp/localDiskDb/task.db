@@ -1,0 +1,8 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"createdAt":1587503951526,"updatedAt":1587503951526,"id":1,"task":"asdf","body":"asdf","user":1,"_id":1}
+{"createdAt":1587504108060,"updatedAt":1587504108060,"id":2,"task":"asdf","body":"asdf","user":1,"_id":2}
+{"createdAt":1587504198614,"updatedAt":1587504198614,"id":3,"task":"asdf","body":"adsf","user":2,"_id":3}
+{"createdAt":1587504210965,"updatedAt":1587504210965,"id":4,"task":"sdfasdfasf","body":"asdfasdfsfd","user":2,"_id":4}
+{"$$deleted":true,"_id":1}
+{"task":"Finish Laundry","body":"Do it in 30 minutes, or else.","user":1,"createdAt":1587564477563,"updatedAt":1587564477563,"id":5,"_id":5}
+{"$$deleted":true,"_id":2}
